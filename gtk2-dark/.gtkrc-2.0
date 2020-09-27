@@ -1,0 +1,12 @@
+include "/usr/share/themes/NOX/gtk-2.0/gtkrc"
+
+style "user-font" {
+	font_name = "Sans 9"
+}
+
+widget_class "*" style "user-font"
+
+gtk-font-name="Sans 9"
+gtk-icon-theme-name="Tango"
+
+include "$HOME/.gtkrc.mine"
