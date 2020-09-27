@@ -1,0 +1,36 @@
+!!! URxvt
+
+! Scrollbar on right
+URxvt.scrollBar: true
+URxvt.scrollBar_right: true
+
+! do not scroll with output
+URxvt*scrollTtyOutput: false
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: true
+
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+
+! Like VTE based terminal, scroll in program (like less)
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+
+! Font choices
+!URxvt.font: fixed
+URxvt.font: xft:Iosevka:size=9, \
+            xft:FontAwesome:size=9
+! Compensate for XFT too large fonts
+URxvt.letterSpace: -1
+
+! Transparent/styled background
+URxvt.transparent: true
+URxvt.shading: 10
+!URxvt.blurRadius: 30
+!URxvt.fading: 25
+URxvt.saveLines: 5000
+
+! TODO
+!URxvt.keysym.M-C-c:     perl:clipboard:copy
+!URxvt.keysym.M-C-v:     perl:clipboard:paste

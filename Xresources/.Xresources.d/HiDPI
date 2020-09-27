@@ -1,0 +1,8 @@
+! Use this settings for HiDPI display (Monitor 4K in 27in - DELL U2718Q)
+! Copy this file to /etc/X11/Xresources/HiDPI
+Xft.dpi: 144
+Xft.rgba: grayscale
+rofi.dpi: 144
+xterm*faceName: xft:monospace:pixelsize=21
+Xcursor.size: 36
+!Xcursor.theme:      DMZ-White

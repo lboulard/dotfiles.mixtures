@@ -1,0 +1,19 @@
+!Xcursor.size:       24
+Xcursor.theme:      DMZ-White
+!Xft.dpi:           96
+Xft.antialias:      true
+Xft.autohint:       true
+Xft.hinting:        true
+! Let platform manage: use grayscale on HiDPI monitor
+!Xft.rgba:           rgb
+!Xft.rgba:           grayscale
+Xft.hintstyle:      hintsmedium
+Xft.lcdfilter:      lcddefault
+
+!#include ".Xresources.d/tango"
+#include ".Xresources.d/jellybeans"
+
+XTerm*font:             -*-fixed-semicondensed-r-*-*-13-*-*-*-*-60-iso10646-1
+XTerm*boldFont:         -*-fixed-semicondensed-r-*-*-13-*-*-*-*-60-iso10646-1
+
+#include ".Xresources.d/urxvt"
